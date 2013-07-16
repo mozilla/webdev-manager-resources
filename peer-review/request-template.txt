@@ -1,0 +1,6 @@
+How has working with ______ been? What has he done well? What do you think could be improved? If you'd like, you can structure your feedback in a few areas:
+
+* Skill Level/Technical Ability - how difficult are the kinds of problems he solves?
+* Productivity/Output - how much shippable, valuable, finished work does he get done?
+* Group Contribution - how much does he contribute to amplifying colleagues, improving workflow, or writing tools used by others?
+* Product Contribution - how much does his work matter to MDN? Does he prioritize time and resources well? Does he understand our users?

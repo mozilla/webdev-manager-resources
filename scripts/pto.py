@@ -7,8 +7,13 @@ from datetime import date, datetime, timedelta
 
 import requests
 
-# Ths config file needs to look like this and contains your LDAP credentials.
-# Sigh.
+# A script that prints out who is on PTO this week or next week
+# by querying the PTO app for each user in the config file, for
+# example:
+#
+# ./pto.py next
+#
+# Ths config file (~/.pto) needs to look like this.
 #
 # {
 #    "auth": [
@@ -20,6 +25,7 @@ import requests
 #        "Stuart Colville"
 #     ]
 # }
+
 config_file = os.path.expanduser('~/.pto')
 config = json.load(open(config_file, 'r'))
 
